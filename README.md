@@ -24,6 +24,7 @@ modify `build.js` by yourself :)
 
 - group by time, tags
 - use `<details>` tag, support collpase and expand
+- prefix post md file with `_draft_` for draft featrue
 
 ### demos
 
@@ -39,7 +40,7 @@ modify `build.js` by yourself :)
         <details open>
     <summary>4月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post4.md">post4</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post4.md">post4</a><span>&nbsp;</span></li></ul>
     </ul>
 </details>
     </ul>
@@ -49,17 +50,17 @@ modify `build.js` by yourself :)
         <details open>
     <summary>7月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post5.md">post5</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post5.md">post5</a><span>&nbsp;</span></li></ul>
     </ul>
 </details><details open>
     <summary>6月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post7.md">post7</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post7.md">post7</a><span>&nbsp;</span></li></ul>
     </ul>
 </details><details >
     <summary>4月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post3.md">post3</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post3.md">post3</a><span>&nbsp;</span></li></ul>
     </ul>
 </details>
     </ul>
@@ -69,7 +70,7 @@ modify `build.js` by yourself :)
         <details >
     <summary>12月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post6.md">post6</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post6.md">post6</a><span>&nbsp;</span></li></ul>
     </ul>
 </details>
     </ul>
@@ -79,7 +80,7 @@ modify `build.js` by yourself :)
         <details >
     <summary>12月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post2.md">post2</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post2.md">post2</a><span>&nbsp;</span></li></ul>
     </ul>
 </details>
     </ul>
@@ -89,12 +90,12 @@ modify `build.js` by yourself :)
         <details >
     <summary>8月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post1.md">post1</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post1.md">post1</a><span>&nbsp;</span></li></ul>
     </ul>
 </details><details >
     <summary>7月</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post8.md">post8</a><span>&nbsp;</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post8.md">post8</a><span>&nbsp;</span></li></ul>
     </ul>
 </details>
     </ul>
@@ -106,12 +107,12 @@ modify `build.js` by yourself :)
         <details >
     <summary>javascript</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post4.md">post4</a><span>&nbsp;[2020-4-15]</span></li><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post3.md">post3</a><span>&nbsp;[2019-4-13]</span></li><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post2.md">post2</a><span>&nbsp;[2017-12-2]</span></li><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post1.md">post1</a><span>&nbsp;[2016-8-20]</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post4.md">post4</a><span>&nbsp;[2020-4-15]</span></li><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post3.md">post3</a><span>&nbsp;[2019-4-13]</span></li><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post2.md">post2</a><span>&nbsp;[2017-12-2]</span></li><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post1.md">post1</a><span>&nbsp;[2016-8-20]</span></li></ul>
     </ul>
 </details><details >
     <summary>nodejs</summary>
     <ul>
-        <ul><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post5.md">post5</a><span>&nbsp;[2019-7-6]</span></li><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post7.md">post7</a><span>&nbsp;[2019-6-10]</span></li><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post6.md">post6</a><span>&nbsp;[2018-12-9]</span></li><li><a href="https://github.com/shaomingquan/articles/blob/master/src/post8.md">post8</a><span>&nbsp;[2016-7-18]</span></li></ul>
+        <ul><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post5.md">post5</a><span>&nbsp;[2019-7-6]</span></li><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post7.md">post7</a><span>&nbsp;[2019-6-10]</span></li><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post6.md">post6</a><span>&nbsp;[2018-12-9]</span></li><li><a href="https://github.com/shaomingquan/tiny-blog-gen/blob/master/src/post8.md">post8</a><span>&nbsp;[2016-7-18]</span></li></ul>
     </ul>
 </details>
     </ul>

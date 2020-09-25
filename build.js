@@ -6,7 +6,7 @@ const assert = require('assert');
 const underCmd = dir => path.resolve(process.cwd(), dir)
 
 const REPO_HOST = 'https://github.com'
-const REPO = 'shaomingquan/articles'
+const REPO = 'shaomingquan/tiny-blog-gen' // modify to your REPO
 
 const FILE_REPO_PATH = underCmd('./src')
 const HEADER_FILE_PATH = underCmd('./HEADER.md')

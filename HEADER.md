@@ -24,6 +24,7 @@ modify `build.js` by yourself :)
 
 - group by time, tags
 - use `<details>` tag, support collpase and expand
+- prefix post md file with `_draft_` for draft featrue
 
 ### demos
 
