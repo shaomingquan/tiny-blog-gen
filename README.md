@@ -114,4 +114,5 @@ modify `build.js` by yourself :)
     </ul>
 </details>
     </ul>
-</details>--------------- demo2 👆 `build.js` ---------------
+</details>
+--------------- demo2 👆 `build.js` ---------------
