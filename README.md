@@ -1,8 +1,10 @@
-## tiny-blog-gen
+# tiny-blog-gen
 
 > make your repo as post db, gen main page
 
-### usage
+## usage
+
+### getting started
 
 1. prepare
     1. fork this repo
@@ -16,17 +18,22 @@
     2. `node build`, new `README.md` file born
     3. git add commit and push...
 
-#### advanced
+### rebuild
+
+you don't need when modify a post, otherwise run `node build.js` to rebuild.
+
+### advanced
 
 modify `build.js` by yourself :)
 
-### featrues
+## featrues
 
 - group by time, tags
 - use `<details>` tag, support collpase and expand
+    - auto expand recently posts, config by `const MAX_EXPAND_CONTENT = 3` under `build.js`
 - prefix post md file with `_draft_` for draft featrue
 
-### demos
+## demos
 
 - demo1, [shaomingquan/articles](https://github.com/shaomingquan/articles/blob/master/README.md#%E6%AC%A2%E8%BF%8E)
 
